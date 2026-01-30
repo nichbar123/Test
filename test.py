@@ -11,7 +11,7 @@ class TestPalindrome(unittest.TestCase):
 
     def test_palindrome_false(self):
         self.assertFalse(is_palindrome("python"))
-        self.assertFalse(is_palindrome("hello"))
+        self.assertFalse(is_palindrome("edit"))
 
     def test_palindrome_case_sensitive(self):
         self.assertFalse(is_palindrome("Racecar"))
